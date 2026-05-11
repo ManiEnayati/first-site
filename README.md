@@ -1,2 +1,2 @@
-# first site
-damn it!
+# first-site
+just started django!
