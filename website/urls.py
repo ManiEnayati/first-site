@@ -1,7 +1,12 @@
 from django.urls import path
 from . import views
 
+app_name = 'website'
+
 urlpatterns = [
-    path('home/', views.home, name='home'),
-    path('page1/', views.page1, name='page1'),
+    path('', views.index, name='home'),
+    path('index/', views.index, name='index'),
+    path('about/', views.about, name='about'),
+        path('contact/', views.contact, name='contact'),
+
 ]
